@@ -4,6 +4,15 @@ button{
     margin-top: 20px;
     padding: 10px;
 }
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    overflow: hidden;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
 iframe{
     height: auto;
     max-width: max-content;
@@ -35,6 +44,7 @@ p{
     min-height: max-content;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
 }
 .menu ul{
