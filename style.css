@@ -1,27 +1,75 @@
+button{
+    border-radius: 5%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+iframe{
+    height: auto;
+    max-width: max-content;
+    max-height: max-content;
+    width: auto;
+} 
+img{
+    height: 170px;
+    width: 270px;
+}
+h1{
+    background-image: url('imageOne.jpg');
+    background-size: cover;
+    color: brown;
+    font-family: Verdana;
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
 .container-images{
     display: inline-block;
+}
+.menu{
+    height: auto;
+    min-width: max-content;
+    min-height: max-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu ul{
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.menu ul li{
+    float: right;
+}
+.menu ul li a {
+    color: white;
+    display: block;
+    float: right;
+    margin: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.menu ul li img {
+    float: left;
+}
+.menu ul li a:hover {
+    background-color: gray;
 }
 .page-one{
     background-color: yellow;
 }
-button{
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 5%;
-    margin-top: 20px;
+#logo{
+    float: left;
 }
-img{
-    width: 270px;
-    height: 170px;
-}
-h1{
-    font-family: Verdana;
-    font-size: 20px;
-    color: brown;
-    text-align: center;
-    background-image: url('imageOne.jpg');
-    background-size: cover;
-}
-p{
-    font-size: 14px;
+#logo-image{
+    height: 49px;
+    margin: 5px;
+    width: 100px;
 }
