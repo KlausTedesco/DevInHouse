@@ -60,7 +60,7 @@ p{
     float: left;
 }
 .menu ul li a:hover {
-    background-color: gray;
+    background-color: green;
 }
 .page-one{
     background-color: yellow;
