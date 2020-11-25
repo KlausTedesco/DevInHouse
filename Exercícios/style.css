@@ -1,8 +1,5 @@
-button{
-    border-radius: 5%;
-    border: 2px solid black;
-    margin-top: 20px;
-    padding: 10px;
+body{
+    margin: 0;
 }
 footer {
     bottom: 0;
@@ -34,6 +31,9 @@ h1{
 }
 p{
     font-size: 14px;
+}
+section{
+    margin: 20px;
 }
 .container-images{
     display: inline-block;
@@ -74,6 +74,12 @@ p{
 }
 .page-one{
     background-color: yellow;
+}
+#button-image{
+    border-radius: 5%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
 }
 #logo{
     float: left;
