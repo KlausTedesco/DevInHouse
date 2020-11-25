@@ -1,3 +1,5 @@
-# DevInHouse
-Fundamentos da web 
-Primeira semana do módulo 1
+# DevInHouse (Exercícios)
+<b>Primeira semana: </b><br>
+Fundamentos da web: HTML e CSS <br>
+<b>Segunda semana: </b><br>
+JavaScript <br>
