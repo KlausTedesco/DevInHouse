@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DEV in House</title>
+</head>
+<body>
+    <h1>Semana 2</h1>
+    <p>Faça uma página HTML contendo 2 campos de texto (dica: input type number), para que o usuário possa inserir, em cada um, o valor que deseja calcular. <br>
+        Coloque também na sua página 4 botões, um indicando soma, outro subtração, outro multiplicação, e outro divisão. <br>
+        Adicione um outro campo de texto, apenas leitura (readonly). <br>
+        Quando o usuário clicar no botão de soma (multiplicação, divisão ou subtração), a sua página deve somar (multiplicar, dividir ou subtrair) <br>
+        os 2 valores inseridos pelo usuário e exibir o resultado no campo de texto readonly.</p>
+    <section>
+        <hr>
+        <br>
+        <label>Insira um número:</label>
+        <input type="number" id="number-one">
+        <label>Insira outro número:</label>
+        <input type="number" id="number-two">
+        <br>
+        <br>
+        <button onclick="getAdd('number-one', 'number-two')">Somar</button>
+        <button onclick="getSubtract('number-one', 'number-two')">Subtrair</button>
+        <button onclick="getMultiply('number-one', 'number-two')">Multiplicar</button>
+        <button onclick="getDivide('number-one', 'number-two')">Dividir</button>
+        <br>
+        <div id="read-only"></div>
+    </section> 
+    <footer>
+		<script src = "script.js"></script>
+	</footer>
+</body>
+</html>

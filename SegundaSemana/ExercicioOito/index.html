@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DEV in House</title>
+</head>
+<body>
+    <h1>Semana 2</h1>
+    <p>Faça uma página HTML contendo um label que exiba a mensagem “Insira sua data de nascimento”, <br>
+        um campo de texto que só permita inserir data (dica: input type date) e um botão rotulado “calcular idade”. <br>
+        Programe uma função a ser executada quando o usuário clicar no botão, <br>
+        que faça o cálculo da idade do usuário, e então exiba a idade em um texto na página HTML.</p>
+    <section>
+        <hr>
+        <label>Insira sua data de nascimento:</label>
+        <input type="date" id="user-birth">
+        <button onclick="getAge('user-birth')">calcular idade</button>
+        <div id="showAge"></div>
+    </section> 
+    <footer>
+		<script src = "script.js"></script>
+	</footer>
+</body>
+</html>
