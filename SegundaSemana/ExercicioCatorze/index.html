@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src = "script.js" defer></script>
+    <title>DEV in House</title>
+</head>
+<body>
+    <h1>Semana 2</h1>
+    <h2>Lista de mercado</h2>
+    <label>Item a adicionar:</label>
+    <input type="text" id="item">
+    <button onclick="getAdd('item')">Adicionar</button>
+    <hr>
+    <h2>Itens cadastrados</h2>
+    <select id="check-items"></select>
+    <button onclick="saveList()">Salvar lista</button>
+    <button onclick="getList()">Carregar lista</button>
+    <br>
+    <div id="list-items"></div>
+</body>
+</html>
