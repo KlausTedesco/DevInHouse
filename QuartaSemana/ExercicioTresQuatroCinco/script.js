@@ -44,3 +44,11 @@ function checkOccupation( listPeople ){
 function getNames( listPeople ){
     return listPeople.map( person => person.name );
 }
+
+// 6 - Encontrar as pessoas menores de 18 anos
+// Novamente considerando a entidade Pessoa do exercício 3: https://trello.com/c/LgeM2xcO 
+// crie uma função que receba uma lista de pessoas e retorne uma nova lista contendo apenas 
+// as pessoas com idade menor que 18 anos.
+function checkUnderAge( listPeople ){
+    return listPeople.filter( person => person.age < 18 && person.age >= 0 );
+}
