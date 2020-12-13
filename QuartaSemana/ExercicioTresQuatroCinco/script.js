@@ -49,6 +49,19 @@ function getNames( listPeople ){
 // Novamente considerando a entidade Pessoa do exercício 3: https://trello.com/c/LgeM2xcO 
 // crie uma função que receba uma lista de pessoas e retorne uma nova lista contendo apenas 
 // as pessoas com idade menor que 18 anos.
-function checkUnderAge( listPeople ){
+function getPeopleUnderAge( listPeople ){
     return listPeople.filter( person => person.age < 18 && person.age >= 0 );
+}
+
+// 7 - Encontrar uma pessoa de maior
+// Novamente considerando a entidade Pessoa do exercício 3: https://trello.com/c/LgeM2xcO 
+// crie uma função que receba uma lista de pessoas e retorne a primeira pessoa com idade maior que 18 anos.
+function getFirstOlderPerson( listPeople ){
+    let firstOlderPerson = listPeople.find( person => person.age > 18);
+
+    if( !firstOlderPerson ){
+        return console.log( "Não tem pessoas maior que 18 anos na lista.");
+    }
+
+    return firstOlderPerson;
 }
