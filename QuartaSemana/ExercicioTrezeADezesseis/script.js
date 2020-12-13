@@ -21,6 +21,11 @@ const places = [
     }
 ]
 
+const city = {
+    name: "",
+    state: ""
+}
+
 function checkList( places ){
     if ( places.length === 0 ){
         throw Error( "Lista está vazia." )
@@ -61,4 +66,17 @@ function hasCitiesOfRS( places ){
     checkList( places );
 
     return places.some( city => city.state === "RS" );
+}
+
+// 16 - Desmontar entidade
+// Considerando a entidade Cidade do exercício 13: https://trello.com/c/4YnGrbg1 
+// crie uma função que receba um objeto cidade e atribua nome e o estado a duas variáveis e imprima elas no console.
+function createCity( city ){
+    let cityName = prompt( "Insira o nome da cidade: ");
+    let stateName = prompt( "Insira o nome do estado: ");
+
+    city.name = cityName;
+    city.state = stateName;
+
+    console.log( city );
 }
