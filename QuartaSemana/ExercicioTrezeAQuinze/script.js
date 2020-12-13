@@ -31,7 +31,7 @@ function checkList( places ){
 // Considerando uma entidade Cidade, contendo os seguintes atributos 
 // nome e estado, crie uma função que receba uma lista de cidades e 
 // retorne a lista de estados em que o estado seja “SC”.
-function getCities( places ){
+function getCitiesOfSC( places ){
     checkList( places );
 
     let citiesOfState = places.filter( city => city.state === "SC" );
@@ -47,8 +47,18 @@ function getCities( places ){
 // Considerando a entidade Cidade do exercício 13: https://trello.com/c/4YnGrbg1 
 // crie uma função que recebe uma lista de cidades e retorna uma lista com os 
 // nomes das cidades concatenados com o seu estado.
-function getListCities( places ){
-    let cities = getCities( places );
+function getListCitiesOfSC( places ){
+    let cities = getCitiesOfSC( places );
 
     return cities.map( place => place.city + "-" + place.state );
+}
+
+// 15 - Verificar existência de Estado
+// Novamente considerando a entidade Cidade do exercício 13: https://trello.com/c/4YnGrbg1 
+// crie uma função que receba uma lista de cidades e verifique 
+// se alguma das cidades é do estado “RS”, retornando o resultado.
+function hasCitiesOfRS( places ){
+    checkList( places );
+
+    return places.some( city => city.state === "RS" );
 }
