@@ -9,4 +9,6 @@ SCRUM <br>
 GIT <br>
 <b>Quarta semana: </b><br>
 ECMAScript 6 <br>
+<b>Quinta semana: </b><br>
+Framework React <br>
 
