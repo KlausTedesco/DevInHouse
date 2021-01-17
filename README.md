@@ -11,4 +11,5 @@ GIT <br>
 ECMAScript 6 <br>
 <b>Quinta semana: </b><br>
 Framework React <br>
-
+<b>Sexta semana: </b><br>
+Framework React II<br>
